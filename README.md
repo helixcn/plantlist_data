@@ -63,7 +63,7 @@
 
 * 刘冰, 叶建飞, 刘夙, 汪远, 杨永, 赖阳均, 曾刚，林秦文. (2015). 中国被子植物科属概览: 依据 APG III 系统. 生物多样性, 23(2), 225-231.
 
-* 环境保护部, 中国科学院 (2013) 《中国生物多样性红色名录——高等植物卷 》(电子版来源： [www.mep.gov.cn/gkml/hbb/bgg/201309/W020130917614244055331.pdf] (www.mep.gov.cn/gkml/hbb/bgg/201309/W020130917614244055331.pdf) ）
+* 环境保护部, 中国科学院 (2013) 《中国生物多样性红色名录——高等植物卷 》 电子版来源： [www.mep.gov.cn/gkml/hbb/bgg/201309/W020130917614244055331.pdf](www.mep.gov.cn/gkml/hbb/bgg/201309/W020130917614244055331.pdf)
 
 * Christenhusz, M., Zhang, X. C., and Schneider, H. (2011a). A linear sequence of extant families and genera of lycophytes and ferns. Phytotaxa. 19:7-54
 
