@@ -13,7 +13,9 @@ library(readxl)
 library(openxlsx)
 library(tidyverse)
 
-cnplants <- read_excel("plant_master_updated.xlsx")
+cnplants <- read_excel("cnplants_dat.xlsx")
+cnplants <- unique(cnplants)
+
 genus_cn <- read_excel("genus_cn.xlsx")
 family_cn <- read_excel("family_cn.xlsx")
 liu_cn_genus <- read_excel("GENUS_CN_LIU.xlsx") # 只有被子植物，在中国分部属的命名人，其他类群的命名人暂无
@@ -60,6 +62,7 @@ res2 <- subset(res, select = c("SPECIES_CN",
 cnplants_dat <- res2[order(res2$GROUP, res2$FAMILY_NUMBER, res2$SPECIES),]
 
 cnplants_dat[is.na(cnplants_dat)] <- ""
+cnplants_dat <- unique(cnplants_dat)
 
 write.xlsx(cnplants_dat, "cnplants_dat_updated.xlsx")
 
